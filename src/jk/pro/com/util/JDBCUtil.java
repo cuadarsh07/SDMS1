@@ -5,6 +5,7 @@ import java.sql.*;
 public class JDBCUtil {
 
 	public static Connection getMysqlConnection() {
+			//added comment
 		Connection con = null;
 		try {
 			// 1.load the driver class
